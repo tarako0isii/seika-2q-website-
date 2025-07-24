@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      .anime_area {
+        position: absolute;
+        left: 0%;
+        top: 20%;
+      }
+
+      input {
+        position: absolute;
+        left: 33%;
+        top: 35%;
+        width: 37%;
+        height: 5%;
+      }
+
+      .button {
+        position: absolute;
+        top: 45%;
+        left: 33%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 20px;
+      }
+      .add-button {
+        background-color: aqua;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 8px 16px;
+        display: inline-block;
+        width: 265px;
+      }
+      .add-button2 {
+        background-color: chocolate;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 8px 16px;
+        display: inline-block;
+        width: 265px;
+      }
+      .add-button3 {
+        background-color: chartreuse;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 8px 16px;
+      }
+      .add-button4 {
+        background-color: blueviolet;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 8px 16px;
+      }
+
+      span {
+        display: inline-block;
+        font-size: 35px;
+        font-weight: bold;
+        color: aqua;
+      }
+      .two {
+        font-size: 25px;
+        font-weight: bold;
+        color: chocolate;
+      }
+      .three {
+        display: inline-block;
+        transition: transform 0.8s ease;
+        font-size: 20px;
+        color: chartreuse;
+      }
+
+      .four {
+        color: blueviolet;
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      .square {
+        width: 150px;
+        height: 80px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="anime_area" class="anime_area"></div>
+    <input id="input_area" />
+    <div class="button">
+      <button id="add-button" class="add-button">ボタン1</button>
+      <button id="add-button2" class="add-button2">ボタン2</button>
+      <button id="add-button3" class="add-button3">ボタン３</button>
+      <button id="add-button4" class="add-button4">ボタン4</button>
+    </div>
+
+    <script type="module" src="mainx.js"></script>
+  </body>
+</html>
