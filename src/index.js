@@ -133,9 +133,8 @@ function addItem4() {
 
   createScope({ root: '.row:nth-child(2)' }).add(() => {
     animate('.square', {
-      x: '45rem',
+      x: '95rem',
       loop: true,
-      alternate: true,
     });
   });
 }
